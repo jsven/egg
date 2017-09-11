@@ -9,8 +9,8 @@
 * **fix**
   * should extends from egg-core BaseContextClass
 * **document**
-  * finish logger.md translation in English @gztchan
-  * translate basics/objects @Azard
+  * finish logger.md translation in English
+  * translate basics/objects
   * adjust webstorm debug config
   * curl(url, opts) add parameter introduction
   * add egg-scripts to deployment
