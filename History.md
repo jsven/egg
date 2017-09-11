@@ -1,5 +1,38 @@
 # History
 
+## 2017-09-11, Version 1.8.0, @leoner
+
+### Notable changes
+
+* **feature**
+  * support app.httpclient and agent.httpclient auto set tracer
+* **fix**
+  * should extends from egg-core BaseContextClass
+* **document**
+  * finish logger.md translation in English @gztchan
+  * translate basics/objects @Azard
+  * adjust webstorm debug config
+  * curl(url, opts) add parameter introduction
+  * add egg-scripts to deployment
+  * remove egg-scripts env default description
+  * (unittest): add bootstrap usage
+
+### Commits
+
+  * [[`105e1947e`](http://github.com/eggjs/egg/commit/105e1947ee0863ebd6c0a1111f218b025e0e9989)] - docs: translate basics/objects (#1238) (Weilun Xiong <<azardf4yy@gmail.com>>)
+  * [[`f7c0d8520`](http://github.com/eggjs/egg/commit/f7c0d85209c9e96f7812c4a2996f000a2667770d)] - feat: support app.httpclient and agent.httpclient auto set tracer (#1393) (hui <<kangpangpang@gmail.com>>)
+  * [[`3aaee8fbe`](http://github.com/eggjs/egg/commit/3aaee8fbea4aee8b5c40921670642772835bf40d)] - fix: should extends from egg-core BaseContextClass (#1392) (fengmk2 <<fengmk2@gmail.com>>)
+  * [[`a9936a383`](http://github.com/eggjs/egg/commit/a9936a383174fd0b2c201ee759bc5174486970a1)] - fix: typo (#1388) (waiting <<waiting@xiaozhong.biz>>)
+  * [[`eef30faf6`](http://github.com/eggjs/egg/commit/eef30faf69b41f4a352a592ad65d097698d27303)] - docs: adjust webstorm debug config (#1367) (TZ | 天猪 <<atian25@qq.com>>)
+  * [[`499454379`](http://github.com/eggjs/egg/commit/499454379b2234a80d3946933f7511ac83c292d6)] - docs: curl(url, opts) add parameter introduction (#1351) (#1352) (hyj1991 <<66cfat66@gmail.com>>)
+  * [[`4daf497eb`](http://github.com/eggjs/egg/commit/4daf497eb32c05c73911a01e861b9cf761ede451)] - docs(en/core/docs-logger): finish logger.md translation in English (#1254) (Tony Chan <<gztchan@gmail.com>>)
+  * [[`aaacd56c9`](http://github.com/eggjs/egg/commit/aaacd56c9c60dbf0cbfd0d1fcc77366a3e3993fe)] - docs: remove egg-scripts env default description (#1318) (TZ | 天猪 <<atian25@qq.com>>)
+  * [[`4feae70b8`](http://github.com/eggjs/egg/commit/4feae70b8c8e69890053bff9f3df9cc7024d69cd)] - docs: add egg-scripts to deployment (#1279) (TZ | 天猪 <<atian25@qq.com>>)
+  * [[`08ed1b3c6`](http://github.com/eggjs/egg/commit/08ed1b3c68e242eba187640c9f6cf8a0acd7489f)] - docs(unittest): typo of egg-mock (#1284) (TZ | 天猪 <<atian25@qq.com>>)
+  * [[`734854c84`](http://github.com/eggjs/egg/commit/734854c84ef8b0107df3101b6aa212d96574b317)] - docs(unittest): add bootstrap usage (#1278) (Yiyu He <<dead-horse@users.noreply.github.com>>)
+  * [[`ebbbcd574`](http://github.com/eggjs/egg/commit/ebbbcd574f5bbd4d91bec345e8b35f9adc48d6c0)] - chore: skip docs deploy at ci cron (#1268) (TZ | 天猪 <<atian25@qq.com>>)
+
+
 ## 2017-07-27, Version 1.7.0, @popomore
 
 ### Notable changes
